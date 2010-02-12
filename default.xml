@@ -14,7 +14,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" revision="eclair" />
 
   <project path="dalvik" name="cyanogen/android_dalvik" remote="github" revision="eclair" />
   <project path="development" name="cyanogen/android_development" remote="github" revision="eclair" />
@@ -92,7 +92,7 @@
   <project path="packages/services/EasService" name="platform/packages/services/EasService" />
   <project path="packages/services/LockAndWipe" name="platform/packages/services/LockAndWipe" />
 
-  <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
+  <project path="packages/wallpapers/Basic" name="koush/android_packages_wallpapers_Basic" remote="github" revision="eclair" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
