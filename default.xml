@@ -33,7 +33,7 @@
   <project path="prebuilt" name="platform/prebuilt"/>
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="cyanogen/android_system_core" remote="github" revision="eclair" />
+  <project path="system/core" name="koush/android_system_core" remote="github" revision="eclair" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" revision="eclair" />
   <project path="system/wlan/ti" name="platform/system/wlan/ti"/>
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
@@ -105,7 +105,7 @@
   <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib"/>
   <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump"/>
-  <project path="external/busybox" name="cyanogen/android_external_busybox" remote="github" revision="master" />
+  <project path="external/busybox" name="koush/android_external_busybox" remote="github" revision="master" />
   <project path="external/bsdiff" name="platform/external/bsdiff"/>
   <project path="external/bzip2" name="platform/external/bzip2"/>
   <project path="external/clearsilver" name="platform/external/clearsilver"/>
@@ -183,7 +183,7 @@
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
 
-  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" revision="eclair" />
+  <project path="vendor/google/passion" name="koush/android_vendor_google_passion" remote="github" revision="eclair" />
 
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" revision="master" remote="github" />
 
