@@ -159,7 +159,7 @@
   <project path="external/protobuf" name="platform/external/protobuf"/>
   <project path="external/qemu" name="platform/external/qemu"/>
   <project path="external/safe-iop" name="platform/external/safe-iop"/>
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="cyanogen/android_external_skia" remote="github" revision="eclair" />
   <project path="external/sonivox" name="platform/external/sonivox"/>
   <project path="external/speex" name="platform/external/speex"/>
   <project path="external/sqlite" name="platform/external/sqlite" />
@@ -175,7 +175,7 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="platform/external/yaffs2"/>
+  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" revision="eclair" />
   <project path="external/zlib" name="platform/external/zlib"/>
 
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
