@@ -180,6 +180,7 @@
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
   <project path="vendor/htc/hero" name="koush/android_vendor_htc_hero" remote="github" />
+  <project path="vendor/htc/heroc" name="koush/android_vendor_htc_heroc" remote="github" />
   <project path="vendor/htc/magic" name="koush/android_vendor_htc_magic" remote="github" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
