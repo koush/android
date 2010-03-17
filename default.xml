@@ -6,7 +6,7 @@
 
   <default revision="eclair" remote="korg"/>
 
-  <project path="build" name="koush/android_build" remote="github">
+  <project path="build" name="cyanogen/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
@@ -189,7 +189,7 @@
 
   <project path="vendor/koush" name="koush/android_vendor_koush" remote="github" />
 
-  <project path="vendor/google/passion" name="koush/android_vendor_google_passion" remote="github" />
+  <project path="vendor/google/passion" name="cyanogen/android_vendor_google_passion" remote="github" />
   <project path="vendor/motorola/sholes-open" name="koush/android_vendor_motorola_sholes-open" remote="github" revision="master" />
 
   <project path="vendor/qcom/android-open" name="platform/vendor/qcom/android-open" revision="master" />
