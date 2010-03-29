@@ -10,6 +10,8 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
+  <project path="kernel" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.33" />
+
   <project path="bionic" name="cyanogen/android_bionic" remote="github" />
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
@@ -62,7 +64,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="cyanogen/android_packages_apps_Contacts" remote="github" />
   <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email"/>
+  <project path="packages/apps/Email" name="cyanogen/android_packages_apps_Email" remote="github" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="cyanogen/android_packages_apps_Gallery3D" remote="github" />
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
@@ -132,7 +134,7 @@
   <project path="external/gtest" name="platform/external/gtest"/>
   <project path="external/icu4c" name="platform/external/icu4c"/>
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools"/>
-  <project path="external/iptables" name="platform/external/iptables"/>
+  <project path="external/iptables" name="cyanogen/android_external_iptables" revision="master" remote="github" />
   <project path="external/jdiff" name="platform/external/jdiff"/>
   <project path="external/jhead" name="platform/external/jhead"/>
   <project path="external/jpeg" name="platform/external/jpeg"/>
@@ -172,6 +174,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml"/>
   <project path="external/tremor" name="platform/external/tremor"/>
   <project path="external/webkit" name="cyanogen/android_external_webkit" remote="github" />
+  <project path="external/wireless-tools" name="cyanogen/android_external_wireless-tools" remote="github" revision="master" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
