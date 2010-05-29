@@ -198,7 +198,7 @@
   <project path="vendor/htc/magic" name="koush/android_vendor_htc_magic" remote="github" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
-  <project path="vendor/htc/supersonic" name="platform/vendor/htc/supersonic" revision="master" />
+  <project path="vendor/htc/supersonic" name="koush/android_vendor_htc_supersonic" remote="github" revision="master" />
   <project path="vendor/huawei/pulsemini" name="koush/android_vendor_huawei_pulsemini" remote="github" revision="master" />
   <project path="vendor/koush" name="koush/android_vendor_koush" remote="github" />
 </manifest>
