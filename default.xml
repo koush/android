@@ -11,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="kernel-msm" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.33" />
+  <project path="kernel-msm" name="cyanogen/cm-kernel" remote="github" revision="android-msm-2.6.34-test2" />
 
   <project path="bionic" name="cyanogen/android_bionic" remote="github" />
 
@@ -65,7 +65,7 @@
   <project path="external/iptables" name="cyanogen/android_external_iptables" revision="master" remote="github" />
   <project path="external/jdiff" name="platform/external/jdiff"/>
   <project path="external/jhead" name="platform/external/jhead"/>
-  <project path="external/jpeg" name="platform/external/jpeg"/>
+  <project path="external/jpeg" name="cyanogen/android_external_jpeg" remote="github" />
   <project path="external/junit" name="platform/external/junit"/>
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
   <project path="external/lcc" name="platform/external/lcc"/>
@@ -78,7 +78,7 @@
   <project path="external/netcat" name="platform/external/netcat"/>
   <project path="external/netperf" name="platform/external/netperf"/>
   <project path="external/neven" name="platform/external/neven"/>
-  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" />
+  <project path="external/opencore" name="cyanogen/android_external_opencore" remote="github" revision="eclair" />
   <project path="external/openssl" name="cyanogen/android_external_openssl" remote="github" revision="master" />
   <project path="external/openvpn" name="cyanogen/android-external-openvpn" remote="github" />
   <project path="external/oprofile" name="platform/external/oprofile"/>
@@ -125,6 +125,7 @@
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
+  <project path="packages/apps/ADWLauncher" name="cyanogen/android_packages_apps_ADWLauncher" remote="github" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="cyanogen/android_packages_apps_Browser" remote="github" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
@@ -135,7 +136,7 @@
   <project path="packages/apps/DeskClock" name="cyanogen/android_packages_apps_DeskClock" remote="github" />
   <project path="packages/apps/Email" name="cyanogen/android_packages_apps_Email" remote="github" />
   <project path="packages/apps/Gallery3D" name="cyanogen/android_packages_apps_Gallery3D" remote="github" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
+  <project path="packages/apps/Gallery" name="cyanogen/android_packages_apps_Gallery" remote="github" />
   <project path="packages/apps/GlobalSearch" name="platform/packages/apps/GlobalSearch"/>
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
@@ -162,7 +163,7 @@
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider"/>
   <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider"/>
   <project path="packages/providers/GoogleSubscribedFeedsProvider" name="platform/packages/providers/GoogleSubscribedFeedsProvider"/>
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="cyanogen/android_packages_providers_MediaProvider" remote="github" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider"/>
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider"/>
   <project path="packages/wallpapers/Basic" name="cyanogen/android_packages_wallpapers_Basic" remote="github" />
