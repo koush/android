@@ -191,6 +191,7 @@
   <project path="vendor/qcom/mm-core" name="cyanogen/android_vendor_qcom_mm-core" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
+  <project path="vendor/htc/liberty" name="koush/android_vendor_htc_liberty" remote="github" revision="master" />
   <project path="vendor/htc/bravo" name="koush/android_vendor_htc_bravo" remote="github" revision="master" />
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
   <project path="vendor/htc/desirec" name="koush/android_vendor_htc_desirec" remote="github" revision="master" />
