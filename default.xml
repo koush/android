@@ -62,7 +62,7 @@
   <project path="external/gtest" name="platform/external/gtest"/>
   <project path="external/icu4c" name="platform/external/icu4c"/>
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools"/>
-  <project path="external/iptables" name="cyanogen/android_external_iptables" revision="master" remote="github" />
+  <project path="external/iptables" name="platform/external/iptables" revision="froyo" />
   <project path="external/jdiff" name="platform/external/jdiff"/>
   <project path="external/jhead" name="platform/external/jhead"/>
   <project path="external/jpeg" name="cyanogen/android_external_jpeg" remote="github" />
@@ -193,6 +193,7 @@
 
   <project path="vendor/htc/liberty" name="koush/android_vendor_htc_liberty" remote="github" revision="master" />
   <project path="vendor/htc/bravo" name="koush/android_vendor_htc_bravo" remote="github" revision="master" />
+  <project path="vendor/htc/buzz" name="koush/android_vendor_htc_buzz" remote="github" revision="master" />
   <project path="vendor/htc/common-open" name="platform/vendor/htc/common-open" revision="master" />
   <project path="vendor/htc/desirec" name="koush/android_vendor_htc_desirec" remote="github" revision="master" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
