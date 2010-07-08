@@ -7,7 +7,7 @@
 
   <default revision="eclair" remote="korg"/>
 
-  <project path="build" name="cyanogen/android_build" remote="github">
+  <project path="build" name="CyanogenMod/android_build" remote="github">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
@@ -176,7 +176,7 @@
   <project path="sdk" name="platform/sdk" />
 
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="cyanogen/android_system_core" remote="github" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" />
   <project path="system/extras" name="cyanogen/android_system_extras" remote="github" />
   <!-- Removing until it coexists with other projects 
   <project path="system/wlan/broadcom" name="platform/system/wlan/broadcom" revision="master" /> 
@@ -202,6 +202,7 @@
   <project path="vendor/htc/hero" name="koush/android_vendor_htc_hero" remote="github" />
   <project path="vendor/htc/heroc" name="koush/android_vendor_htc_heroc" remote="github" />
   <project path="vendor/htc/inc" name="koush/android_vendor_htc_inc" remote="github" revision="master" />
+  <project path="vendor/htc/legend" name="koush/android_vendor_htc_legend" remote="github" revision="master" />
   <project path="vendor/htc/magic" name="koush/android_vendor_htc_magic" remote="github" />
   <project path="vendor/htc/prebuilt-open" name="platform/vendor/htc/prebuilt-open" revision="master" />
   <project path="vendor/htc/sapphire-open" name="platform/vendor/htc/sapphire-open" revision="master" />
