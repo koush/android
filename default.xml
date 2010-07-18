@@ -11,7 +11,7 @@
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>
 
-  <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.34-test2" />
+  <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.34" />
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
 
@@ -40,7 +40,7 @@
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" remote="github" revision="master" />
   <project path="external/dbus" name="platform/external/dbus"/>
   <project path="external/dhcpcd" name="platform/external/dhcpcd"/>
-  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="master" />
+  <project path="external/dnsmasq" name="platform/external/dnsmasq" revision="master" />
   <project path="external/dosfstools" name="platform/external/dosfstools" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" remote="github" revision="master" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="master" />
@@ -62,7 +62,7 @@
   <project path="external/gtest" name="platform/external/gtest"/>
   <project path="external/icu4c" name="platform/external/icu4c"/>
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools"/>
-  <project path="external/iptables" name="platform/external/iptables" revision="froyo" />
+  <project path="external/iptables" name="CyanogenMod/android_external_iptables" revision="master" remote="github" />
   <project path="external/jdiff" name="platform/external/jdiff"/>
   <project path="external/jhead" name="platform/external/jhead"/>
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" />
@@ -141,8 +141,6 @@
   <project path="packages/apps/GoogleSearch" name="platform/packages/apps/GoogleSearch" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer"/>
   <project path="packages/apps/IM" name="platform/packages/apps/IM"/>
-  <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" remote="github" />
-  <project path="packages/apps/Launcher" name="CyanogenMod/android_packages_apps_Launcher" remote="github" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" remote="github" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller"/>
@@ -151,7 +149,7 @@
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk"/>
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="eclair-froyo" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer"/>
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME"/>
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn"/>
@@ -178,15 +176,17 @@
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" remote="github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
-  <!-- Removing until it coexists with other projects 
-  <project path="system/wlan/broadcom" name="platform/system/wlan/broadcom" revision="master" /> 
+  <!-- Removing until it coexists with other projects
+  <project path="system/wlan/broadcom" name="platform/system/wlan/broadcom" revision="master" />
   -->
-  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" remote="github" />
+  <project path="system/wlan/ti" name="platform/system/wlan/ti" />
 
   <project path="vendor/cyanogen" name="CyanogenMod/android_vendor_cyanogen" remote="github" />
   <project path="vendor/google/passion" name="CyanogenMod/android_vendor_google_passion" remote="github" />
   <project path="vendor/htc/dream_sapphire" name="CyanogenMod/android_vendor_htc_dream_sapphire" remote="github" />
+  <project path="vendor/htc/inc" name="koush/android_vendor_htc_inc" remote="github" revision="master" />
   <project path="vendor/motorola/sholes" name="koush/android_vendor_motorola_sholes" remote="github" revision="master" />
+  <project path="vendor/htc/bravo" name="behnaam/android_vendor_htc_bravo" remote="github" />
   <project path="vendor/qcom/android-open" name="CyanogenMod/android_vendor_qcom_android-open" remote="github" />
   <project path="vendor/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
