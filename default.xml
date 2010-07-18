@@ -199,8 +199,8 @@
   <project path="vendor/htc/desirec" name="koush/android_vendor_htc_desirec" remote="github" revision="master" />
   <project path="vendor/htc/dream-open" name="platform/vendor/htc/dream-open" revision="master" />
   <project path="vendor/htc/espresso" name="koush/android_vendor_htc_espresso" remote="github" revision="master" />
-  <project path="vendor/htc/hero" name="koush/android_vendor_htc_hero" remote="github" />
-  <project path="vendor/htc/heroc" name="koush/android_vendor_htc_heroc" remote="github" />
+  <project path="vendor/htc/hero" name="koush/android_vendor_htc_hero" remote="github" revision="master" />
+  <project path="vendor/htc/heroc" name="koush/android_vendor_htc_heroc" remote="github" revision="master" />
   <project path="vendor/htc/inc" name="koush/android_vendor_htc_inc" remote="github" revision="master" />
   <project path="vendor/htc/legend" name="koush/android_vendor_htc_legend" remote="github" revision="master" />
   <project path="vendor/htc/magic" name="koush/android_vendor_htc_magic" remote="github" />
