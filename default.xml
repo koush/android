@@ -17,7 +17,7 @@
 
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller"/>
-  <project path="bootable/recovery" name="koush/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
 
   <project path="cts" name="platform/cts" />
 
@@ -106,7 +106,7 @@
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant"/>
   <project path="external/xdelta3" name="platform/external/xdelta3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/yaffs2" name="koush/android_external_yaffs2" remote="github" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
   <project path="external/zlib" name="platform/external/zlib"/>
 
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" />
