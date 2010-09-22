@@ -190,6 +190,7 @@
   <project path="vendor/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
   <project path="vendor/sample" name="platform/vendor/sample" revision="master" />
 
+  <project path="vendor/acer/salsa" name="koush/android_vendor_acer_salsa" remote="github" revision="master" />
   <project path="vendor/dell/streak" name="koush/android_vendor_dell_streak" remote="github" revision="master" />
   <project path="vendor/htc/liberty" name="koush/android_vendor_htc_liberty" remote="github" revision="master" />
   <project path="vendor/htc/bravo" name="koush/android_vendor_htc_bravo" remote="github" revision="master" />
@@ -209,6 +210,8 @@
   <project path="vendor/huawei/pulsemini" name="koush/android_vendor_huawei_pulsemini" remote="github" revision="master" />
   <project path="vendor/lg/aloha" name="koush/android_vendor_lg_aloha" remote="github" revision="master" />
   <project path="vendor/motorola/droidx" name="koush/android_vendor_motorola_droidx" remote="github" revision="master" />
+  <project path="vendor/samsung/epic" name="koush/android_vendor_samsung_epic" remote="github" revision="master" />
+  <project path="vendor/samsung/fascinate" name="koush/android_vendor_samsung_fascinate" remote="github" revision="master" />
   <project path="vendor/samsung/galaxys" name="koush/android_vendor_samsung_galaxys" remote="github" revision="master" />
   <project path="vendor/koush" name="koush/android_vendor_koush" remote="github" />
 </manifest>
