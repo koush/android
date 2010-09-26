@@ -209,6 +209,7 @@
   <project path="vendor/huawei/pulse" name="koush/android_vendor_huawei_pulse" remote="github" revision="master" />
   <project path="vendor/huawei/pulsemini" name="koush/android_vendor_huawei_pulsemini" remote="github" revision="master" />
   <project path="vendor/lg/aloha" name="koush/android_vendor_lg_aloha" remote="github" revision="master" />
+  <project path="vendor/motorola/droid2" name="koush/android_vendor_motorola_droid2" remote="github" revision="master" />
   <project path="vendor/motorola/droidx" name="koush/android_vendor_motorola_droidx" remote="github" revision="master" />
   <project path="vendor/samsung/epic" name="koush/android_vendor_samsung_epic" remote="github" revision="master" />
   <project path="vendor/samsung/fascinate" name="koush/android_vendor_samsung_fascinate" remote="github" revision="master" />
